@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-08T17:41:23 CET" name="All Tests Suite" finished-at="2024-12-08T17:43:23 CET" duration-ms="119258">
+    <groups>
+    </groups>
+    <test started-at="2024-12-08T17:41:23 CET" name="PlexsupplyCategoryFiltrationTest" finished-at="2024-12-08T17:42:06 CET" duration-ms="42251">
+      <class name="tests.PlexsupplyCategoryFiltrationTest">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.PlexsupplyCategoryFiltrationTest@7181ae3f]" started-at="2024-12-08T17:41:23 CET" name="setUpTest" finished-at="2024-12-08T17:41:24 CET" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="fitersCategory()[pri:0, instance:tests.PlexsupplyCategoryFiltrationTest@7181ae3f]" started-at="2024-12-08T17:41:24 CET" name="fitersCategory" finished-at="2024-12-08T17:42:05 CET" duration-ms="41361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fitersCategory -->
+        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.PlexsupplyCategoryFiltrationTest@7181ae3f]" started-at="2024-12-08T17:42:05 CET" name="clearCookiesAndLocalStorage" finished-at="2024-12-08T17:42:06 CET" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesAndLocalStorage -->
+      </class> <!-- tests.PlexsupplyCategoryFiltrationTest -->
+    </test> <!-- PlexsupplyCategoryFiltrationTest -->
+    <test started-at="2024-12-08T17:42:06 CET" name="PlexsupplyCheckoutShippingCostChangeTest" finished-at="2024-12-08T17:42:49 CET" duration-ms="43575">
+      <class name="tests.PlexsupplyCheckoutShippingCostChangeTest">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.PlexsupplyCheckoutShippingCostChangeTest@1176dcec]" started-at="2024-12-08T17:42:06 CET" name="setUpTest" finished-at="2024-12-08T17:42:06 CET" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="checkShippingCostChangeOnCheckout()[pri:0, instance:tests.PlexsupplyCheckoutShippingCostChangeTest@1176dcec]" started-at="2024-12-08T17:42:06 CET" name="checkShippingCostChangeOnCheckout" finished-at="2024-12-08T17:42:49 CET" duration-ms="42934" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [0.0] but found [0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [0.0] but found [0.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertNotEquals(Assert.java:1399)
+at org.testng.Assert.assertNotEquals(Assert.java:1404)
+at tests.PlexsupplyCheckoutShippingCostChangeTest.checkShippingCostChangeOnCheckout(PlexsupplyCheckoutShippingCostChangeTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkShippingCostChangeOnCheckout -->
+        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.PlexsupplyCheckoutShippingCostChangeTest@1176dcec]" started-at="2024-12-08T17:42:49 CET" name="clearCookiesAndLocalStorage" finished-at="2024-12-08T17:42:49 CET" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesAndLocalStorage -->
+      </class> <!-- tests.PlexsupplyCheckoutShippingCostChangeTest -->
+    </test> <!-- PlexsupplyCheckoutShippingCostChangeTest -->
+    <test started-at="2024-12-08T17:42:49 CET" name="PlexsupplyCheckoutGuestRemoveSingleItemTest" finished-at="2024-12-08T17:43:23 CET" duration-ms="33397">
+      <class name="tests.PlexsupplyCheckoutGuestRemoveSingleItemTest">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:tests.PlexsupplyCheckoutGuestRemoveSingleItemTest@21a947fe]" started-at="2024-12-08T17:42:49 CET" name="setUpTest" finished-at="2024-12-08T17:42:50 CET" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="plexSupplyGuestRemoveSingleItemOnCheckout()[pri:0, instance:tests.PlexsupplyCheckoutGuestRemoveSingleItemTest@21a947fe]" started-at="2024-12-08T17:42:50 CET" name="plexSupplyGuestRemoveSingleItemOnCheckout" finished-at="2024-12-08T17:43:22 CET" duration-ms="32757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plexSupplyGuestRemoveSingleItemOnCheckout -->
+        <test-method is-config="true" signature="clearCookiesAndLocalStorage()[pri:0, instance:tests.PlexsupplyCheckoutGuestRemoveSingleItemTest@21a947fe]" started-at="2024-12-08T17:43:22 CET" name="clearCookiesAndLocalStorage" finished-at="2024-12-08T17:43:23 CET" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookiesAndLocalStorage -->
+      </class> <!-- tests.PlexsupplyCheckoutGuestRemoveSingleItemTest -->
+    </test> <!-- PlexsupplyCheckoutGuestRemoveSingleItemTest -->
+  </suite> <!-- All Tests Suite -->
+</testng-results>

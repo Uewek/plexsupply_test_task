@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="methods" name="Failed suite [All Tests Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="4" parallel="methods" name="PlexsupplyCheckoutShippingCostChangeTest(failed)" verbose="0">
+    <classes>
+      <class name="tests.PlexsupplyCheckoutShippingCostChangeTest">
+        <methods>
+          <include name="checkShippingCostChangeOnCheckout"/>
+          <include name="setUpTest"/>
+          <include name="clearCookiesAndLocalStorage"/>
+        </methods>
+      </class> <!-- tests.PlexsupplyCheckoutShippingCostChangeTest -->
+    </classes>
+  </test> <!-- PlexsupplyCheckoutShippingCostChangeTest(failed) -->
+</suite> <!-- Failed suite [All Tests Suite] -->
