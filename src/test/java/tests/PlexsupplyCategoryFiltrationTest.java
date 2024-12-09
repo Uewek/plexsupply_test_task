@@ -4,7 +4,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.PlexsupplyHomePage;
 import pages.PlexsupplyCategoryPage;
-
 import static constants.Constant.PlexSupplyUrls.PLEXSUPPLY_HOME_PAGE_URL;
 import static constants.Constant.Filters;
 import static constants.Constant.Categories;

@@ -31,5 +31,4 @@ public class PlexsupplyHomePage extends BasePage
         Actions actions = new Actions(driver);
         actions.moveToElement(targetNavItem).perform();
     }
-
 }

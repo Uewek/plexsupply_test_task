@@ -1,11 +1,9 @@
 package tests;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.PlexsupplyCategoryPage;
 import pages.PlexsupplyCheckoutPage;
 import pages.PlexsupplyHomePage;
-
 import static constants.Constant.PlexSupplyUrls.PLEXSUPPLY_HOME_PAGE_URL;
 import static constants.Constant.PlexSupplyUrls.PLEXSUPPLY_CHECKOUT_PAGE_URL;
 import static constants.Constant.Categories;
