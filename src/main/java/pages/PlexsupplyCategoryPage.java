@@ -12,7 +12,6 @@ import java.util.List;
  */
 public class PlexsupplyCategoryPage extends BasePage{
 
-
     private By categoryTitle = By.xpath("//*[@id=\"page-title-heading\"]/span");
     private By closeCartMessageButton = By.cssSelector(".close-message");
     private By addToCartBtn = By.cssSelector("button[title='Add to Cart']");
@@ -23,7 +22,6 @@ public class PlexsupplyCategoryPage extends BasePage{
     private By productCardFinalPrice = By.xpath("span[data-price-type=\"finalPrice\"]");
     private By filterFromPrice = By.cssSelector(".smile-es-range-slider div[data-role=\"from-label\"]\n");
     private By filterToPrice = By.cssSelector(".smile-es-range-slider div[data-role=\"to-label\"]\n");
-
 
     /**
      * Construct method

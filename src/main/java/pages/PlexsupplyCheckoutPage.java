@@ -31,7 +31,7 @@ public class PlexsupplyCheckoutPage extends BasePage {
     }
 
     /**
-     * Remove single order item on checkout page. Method is fluky!!
+     * Remove single order item on checkout page. Method is flaky!!
      *
      * @return
      */
@@ -43,7 +43,7 @@ public class PlexsupplyCheckoutPage extends BasePage {
 
         WebElement removeSingleItemBtn = wait.until(driver -> driver.findElement(removeItemBtn));
 
-        // I know -  Thread.sleep is not a good practice
+        // I know -  Thread.sleep is not a good practice but checkout page load not immediately
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
@@ -78,14 +78,14 @@ public class PlexsupplyCheckoutPage extends BasePage {
     /**
      * Set state/region value
      *
-     * @param countryCode
+     * @param regionCode
      * @return
      */
-    public PlexsupplyCheckoutPage setStateSelectValue(String countryCode)
+    public PlexsupplyCheckoutPage setStateSelectValue(String regionCode)
     {
         WebElement selectElement = driver.findElement(stateSelect);
         Select select = new Select(selectElement);
-        select.selectByValue(countryCode);
+        select.selectByValue(regionCode);
         // this wait need for changing shipping price because shipping price calculated not immediately
         try {
             Thread.sleep(3000);

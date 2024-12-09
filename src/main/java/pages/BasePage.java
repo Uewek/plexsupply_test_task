@@ -102,8 +102,7 @@ public class BasePage {
     }
 
     /**
-     * Open one of categories from header or navigation menu
-     * (in real test must be used specially created for test purpose category)
+     * Click on accept cookie button
      */
     public void submitCookie() {
         WebElement cookieButtonElement = driver.findElement(submitCookieBtn);
